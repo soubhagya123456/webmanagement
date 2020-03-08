@@ -1,0 +1,32 @@
+{
+    "e1b935ab-9ccd-40ff-08b8-063d0e7e6d21": {
+        "appPageName": "login",
+        "componentName": "loginComponent",
+        "isEntry": false
+    },
+    "d0a10f0f-5a3c-36cd-6c3d-c42672826196": {
+        "appPageName": "profile",
+        "componentName": "profileComponent",
+        "isEntry": false
+    },
+    "d5609640-b603-b402-5c4a-560b28c911e8": {
+        "appPageName": "update",
+        "componentName": "updateComponent",
+        "isEntry": false
+    },
+    "13e1aa81-57e3-9f74-d4c5-3858c40743be": {
+        "appPageName": "table",
+        "componentName": "tableComponent",
+        "isEntry": false
+    },
+    "7aeb692c-1351-efea-1b09-8b23709bea46": {
+        "appPageName": "pop",
+        "componentName": "popComponent",
+        "isEntry": false
+    },
+    "9ca16df1-c3e2-9a72-f1cc-b4960d5f43a9": {
+        "appPageName": "user",
+        "componentName": "userComponent",
+        "isEntry": false
+    }
+}

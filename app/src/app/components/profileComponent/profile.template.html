@@ -1,0 +1,21 @@
+<mat-toolbar color="primary">
+  <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+    <div fxLayout="column wrap" fxFlex="30" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><button mat-fab (click)="sidenav.toggle();">
+        <mat-icon>menu</mat-icon>
+      </button></div>
+    <div fxLayout="column wrap" fxFlex="50" fxLayoutGap="10" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false"></div>
+    <div fxLayout="column wrap" fxFlex="20" fxLayoutAlign="end stretch" [fxShow]="true" [fxHide]="false"><button mat-button class="probtn" routerLink="/profilepage/updatepage">
+        <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>Add family
+      </button></div>
+  </div>
+</mat-toolbar>
+<mat-sidenav-container style="height:550px;" class="container">
+  <mat-sidenav #sidenav class="sidenav" [mode] [position]>
+    <div fxLayout="column wrap" fxLayoutAlign="space-around stretch" [fxShow]="true" [fxHide]="false">
+      <div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false"><button mat-button class="btn1" routerLink="/profilepage/userpage">User info</button></div>
+      <div fxLayout="row wrap" fxLayoutAlign="space-around stretch" [fxShow]="true" [fxHide]="false"><button mat-button class="btn1" routerLink="/loginpage">Logout</button></div>
+      <div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false"><button mat-button class="btn1" routerLink="/profilepage/tablepage">Family data</button></div>
+    </div>
+  </mat-sidenav>
+  <router-outlet></router-outlet>
+</mat-sidenav-container>

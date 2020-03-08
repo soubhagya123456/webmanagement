@@ -1,0 +1,52 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+
+//login page edition
+
+.form{
+    // background-color: red; 
+    //   background-image:linear-gradient(to top, black, 20%, cyan);
+      background: 
+    repeating-radial-gradient(
+      circle at 0 0, 
+      #eee,
+      #ccc 50px
+    );
+      margin-top: 20px;
+}
+.btn1{
+    color:white;
+}
+//update page styleing
+  .form1{
+       margin-top: 20px;
+       background-image: linear-gradient(to top, black, cyan);
+   
+  }
+  .button{
+      background-color: blue;
+  }
+
+  //profile page edition
+  .probtn{
+      background-color: white;
+      color: black;
+      width:200px;
+      margin-left:320px;
+      
+  }
+  .sidenav{
+      background-color:#023075;
+      width:160px;
+      height:900px;
+  }
+  .btn1{
+      color: cyan;
+  }
+ 
+  //table edition
+     table{
+         margin-top:20px;
+     }

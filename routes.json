@@ -1,0 +1,53 @@
+{
+    "routes": [
+        {
+            "path": "loginpage",
+            "component": "loginComponent"
+        },
+        {
+            "path": "profilepage",
+            "component": "profileComponent",
+            "children": [
+                {
+                    "path": "updatepage",
+                    "component": "updateComponent"
+                },
+                {
+                    "path": "tablepage",
+                    "component": "tableComponent",
+                    "children": []
+                },
+                {
+                    "path": "userpage",
+                    "component": "userComponent"
+                }
+            ]
+        },
+        {
+            "path": "updatepage",
+            "component": "updateComponent"
+        },
+        {
+            "path": "tablepage",
+            "component": "tableComponent"
+        },
+        {
+            "path": "poppage",
+            "component": "popComponent"
+        },
+        {
+            "path": "userpage",
+            "component": "userComponent"
+        },
+        {
+            "path": "''",
+            "redirectTo": "/profilepage",
+            "pathMatch": "full",
+            "default": true
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent"
+        }
+    ]
+}

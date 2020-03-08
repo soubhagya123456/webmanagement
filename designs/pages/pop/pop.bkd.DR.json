@@ -1,0 +1,252 @@
+{
+    "3a8b4871-7335-c624-287e-50c2b6becd04": {
+        "paletteKey": "ng-mat-error",
+        "isAdvancedComponent": true,
+        "designerReference": [
+            {
+                "_key": "componentLabel",
+                "_value": "Error",
+                "_type": "kv",
+                "_attrDef": "p",
+                "_useAsLabel": true
+            },
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "matError",
+                "_value": [],
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": false,
+                "_isVisibleForParent": true
+            },
+            {
+                "_key": "Error Message",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true,
+                "_isVisibleForParent": false
+            },
+            {
+                "_key": "Error Condition",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true,
+                "_isVisibleForParent": false
+            },
+            {
+                "_key": "hintAlign",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true,
+                "_isVisibleForParent": false
+            }
+        ]
+    },
+    "80d81e89-c84f-4e74-a1ef-cf528076776f": {
+        "paletteKey": "Html5",
+        "isAdvancedComponent": true,
+        "designerReference": [
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "htmlElement",
+                "_value": "div",
+                "_type": "a",
+                "_attrDef": "p",
+                "_useAsLabel": true
+            }
+        ],
+        "a38f9982-e2e7-0dd1-e8c6-b1e94996ece5": {
+            "paletteKey": "html-editor",
+            "parentEditorKey": "80d81e89-c84f-4e74-a1ef-cf528076776f",
+            "isAdvancedChildComponent": true,
+            "designerReference": [
+                {
+                    "_key": "style",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "class",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "html",
+                    "_value": "fghjkhh",
+                    "_type": "a",
+                    "_attrDef": "p"
+                }
+            ]
+        }
+    },
+    "fe8c8532-cace-0dca-9d10-bd5639d4e189": {
+        "paletteKey": "ng-table",
+        "isAdvancedComponent": true,
+        "designerReference": [
+            {
+                "_key": "componentLabel",
+                "_value": "Table",
+                "_type": "kv",
+                "_attrDef": "p",
+                "_useAsLabel": true
+            },
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[dataSource]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "header",
+                "_value": false,
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            }
+        ],
+        "da9ebe29-304c-b397-0fa7-009c8c8e1c64": {
+            "paletteKey": "ng-table-column",
+            "parentEditorKey": "fe8c8532-cace-0dca-9d10-bd5639d4e189",
+            "isAdvancedChildComponent": true,
+            "designerReference": [
+                {
+                    "_key": "style",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "class",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "Header Label",
+                    "_value": "",
+                    "_type": "a",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "Mapping",
+                    "_value": "",
+                    "_type": "ma",
+                    "_attrDef": "p",
+                    "_useAsLabel": true
+                },
+                {
+                    "_key": "matSortHeaderColumn",
+                    "_value": "",
+                    "_type": "a",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "columnName",
+                    "_value": "",
+                    "_type": "dav",
+                    "_attrDef": "p",
+                    "_visibility": false
+                }
+            ]
+        }
+    },
+    "2e0cf495-8df7-fe1c-85df-cae051194f1e": {
+        "paletteKey": "NG-RaisedButton",
+        "designerReference": [
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "buttonname",
+                "_value": "Raised Button",
+                "_type": "a",
+                "_attrDef": "p",
+                "_useAsLabel": true
+            },
+            {
+                "_key": "color",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "(click)",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[disabled]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[disableRipple]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "type",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "routerLink",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            }
+        ]
+    }
+}

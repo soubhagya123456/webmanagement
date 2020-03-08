@@ -1,0 +1,13 @@
+{
+    "appPageId": "7aeb692c-1351-efea-1b09-8b23709bea46",
+    "appPageName": "pop",
+    "componentName": "popComponent",
+    "selectorName": "bh-pop",
+    "htmlFileName": "pop.template.html",
+    "tsFileName": "pop.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

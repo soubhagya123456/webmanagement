@@ -1,0 +1,40 @@
+<div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+  <div fxLayout="column wrap" fxFlex="30" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"></div>
+  <div fxLayout="column wrap" class="content" fxFlex="40" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
+    <form [formGroup]="regi" (ngSubmit)="onform(regi.value)" #userform="ngForm" class="form">
+      <div fxLayout="column wrap" class="form2" fxLayoutAlign="end stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
+          <div>
+            <h3>Login page</h3>
+          </div>
+        </div>
+        <div fxLayout="row wrap" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+          <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;">
+            <input matInput placeholder="First name" required formControlName="first">
+
+          </mat-form-field>
+        </div>
+        <div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
+          <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;">
+            <input matInput placeholder="Last name" required formControlName="last">
+
+          </mat-form-field>
+        </div>
+        <div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
+          <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;">
+            <input matInput placeholder="E-mail" required formControlName="email">
+
+          </mat-form-field>
+        </div>
+        <div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
+          <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;">
+            <input matInput placeholder="phone no." required formControlName="phone">
+
+          </mat-form-field>
+        </div>
+        <div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false"><button mat-raised-button routerLink="/profilepage" color="primary">login</button></div>
+      </div>
+    </form>
+  </div>
+  <div fxLayout="column wrap" fxFlex="30" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"></div>
+</div>

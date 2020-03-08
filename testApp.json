@@ -1,0 +1,11 @@
+{
+    "artId": "",
+    "appName": "testApp",
+    "description": "Test",
+    "lastModified": "2019-07-25T08:33:05.763Z",
+    "artURL": "http://localhost:3000/bhive-art/",
+    "imgSourcePath": "",
+    "version": "1.0.0",
+    "dataSource": "neutrinos-delivery-rt",
+    "createDate": "2019-07-25T08:33:05.763Z"
+}
